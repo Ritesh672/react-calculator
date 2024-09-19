@@ -1,0 +1,6 @@
+[build]
+  # The build command to run from the calculator directory
+  command = "cd client && npm install && npm run build"
+  
+  # Directory to deploy
+  publish = "client/build"
